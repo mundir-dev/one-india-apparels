@@ -28,6 +28,14 @@
     background-color: #F5F5F5;
 }
 
+.bg-light-blue{
+    background-color: #D3DFED;
+}
+
+.text-blue{
+    color: #002851 !important;
+}
+
 .mb-30{
     margin-bottom: 30px;
 }
@@ -589,4 +597,40 @@ section{
             color: #000;
         }
     }
+}
+
+.main-banner{
+    text-align: center;
+}
+
+.youtube-video{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 45%;
+    iframe{
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.subscribe-btn{
+    background-color: #002851;
+    color: #fff;
+    font-size: 22px;
+    text-align: center;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    border: none;
+    width: 100%;
+    max-width: 300px;
+    margin: 0 15px;
+    margin-top: 20px;
+    letter-spacing: 2px;
+    font-weight: 300;
 }
