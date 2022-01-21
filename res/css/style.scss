@@ -162,6 +162,10 @@ nav{
     }
 }
 
+section{
+    overflow: hidden;
+}
+
 #homeCarousel{
    .carousel-control-btn{
     margin: 0 15px;
@@ -273,7 +277,7 @@ nav{
         text-align: center;
         h3{
             color: #630614;
-            font-size: 20px;
+            font-size: 23px;
             font-family: 'Bellefair', serif;
         }
         p{
