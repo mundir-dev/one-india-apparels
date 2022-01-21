@@ -512,4 +512,58 @@ nav .dropdown button::after {
   padding-right: 40px;
   color: #ffe3c1;
 }
+
+.product-list-row {
+  margin-left: -5px;
+  margin-right: -5px;
+}
+
+.product-list-row .col {
+  padding: 0 5px;
+}
+
+.product-list-row a :hover img {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.product-box {
+  height: 100%;
+  max-width: 314px;
+  margin: 0 auto;
+}
+
+.product-box .image-box {
+  overflow: hidden;
+}
+
+.product-box .image-box img {
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+.product-box .content {
+  padding: 25px;
+  color: #4A433D;
+}
+
+@media (max-width: 320px) {
+  .product-box .content {
+    padding: 15px;
+  }
+}
+
+.product-box .content * {
+  font-family: 'Gotham Rounded', sans-serif !important;
+  font-weight: 300;
+  font-size: 15px;
+}
+
+.product-box .content .price {
+  margin-top: 20px;
+}
+
+.product-box .content .price span:first-child {
+  padding-right: 15px;
+}
 /*# sourceMappingURL=style.css.map */
