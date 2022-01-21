@@ -350,6 +350,16 @@ section {
   background-color: #fff;
 }
 
+.red-active li {
+  width: 17px;
+  height: 17px;
+}
+
+.red-active .active {
+  background-color: #FE528C !important;
+  border: 2px solid #FE528C !important;
+}
+
 .sm-carousel-disc {
   font-size: 17px;
   color: #302626;
@@ -561,6 +571,10 @@ section {
   font-family: 'Gotham Rounded', sans-serif !important;
   font-weight: 300;
   font-size: 15px;
+}
+
+.product-box .content h5 {
+  line-height: 23px;
 }
 
 .product-box .content .price {

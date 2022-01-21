@@ -297,7 +297,17 @@ section{
     }
     .active{
         background-color: #fff;
-        
+    }
+}
+
+.red-active{
+    li{
+        width: 17px;
+        height: 17px;
+    }
+    .active{
+        background-color: #FE528C !important;
+        border: 2px solid #FE528C !important;
     }
 }
 
@@ -487,6 +497,9 @@ section{
             font-family: 'Gotham Rounded', sans-serif !important;
             font-weight: 300;
             font-size: 15px;
+        }
+        h5{
+            line-height: 23px;
         }
         .price{
             margin-top: 20px;
