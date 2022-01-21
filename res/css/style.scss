@@ -498,3 +498,46 @@ section{
         }
     }
 }
+
+.new-arivel-bg{
+    position: relative;
+    &::before{
+     content: "";
+     position: absolute;
+     width: 100%;
+     height: 70%;
+     background-image: url(../images/bg4.png);
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+     top: 0;
+     left: 0;
+    }
+    img{
+        @media (max-width: 767px) {
+            margin-top: 30px;
+        }
+    }
+    h1{
+        font-family: 'Bellefair', serif;
+        color: #630614;
+        margin: 0;
+    }
+    p{
+        color: #604B3B;
+        font-size: 25px;
+        margin: 20px 0;
+        @media (max-width: 767px) {
+            margin-top: 5px;
+        }
+        font-family: 'Bellefair', serif;
+    }
+    .border-elm{
+        padding-left: 15px;
+        margin-top: auto;
+    }
+}
+
+.new-arivel-box{
+    overflow: hidden;
+}
