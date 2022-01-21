@@ -541,3 +541,39 @@ section{
 .new-arivel-box{
     overflow: hidden;
 }
+
+.biggest-deal-box{
+    background-color: #F6F5F8;
+    padding: 20px;
+    padding-bottom: 40px;
+    height: 100%;
+    a{
+        text-decoration: none;
+        &:hover{
+            .img-box{
+                img{
+                    transform: scale(1.1);
+                }
+            }
+        }
+    }
+    .img-box{
+        overflow: hidden;
+        border-radius: 10px;
+        margin-bottom: 40px;
+        overflow: hidden;
+        img{
+            transition: all .5s ease;
+        }
+    }
+
+    .content{
+        padding-top: 20px;
+        h3{
+            font-weight: bold;
+            text-align: center;
+            font-family: 'Gotham Rounded', sans-serif;
+            color: #000;
+        }
+    }
+}

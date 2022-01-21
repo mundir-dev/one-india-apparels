@@ -621,4 +621,43 @@ section {
 .new-arivel-box {
   overflow: hidden;
 }
+
+.biggest-deal-box {
+  background-color: #F6F5F8;
+  padding: 20px;
+  padding-bottom: 40px;
+  height: 100%;
+}
+
+.biggest-deal-box a {
+  text-decoration: none;
+}
+
+.biggest-deal-box a:hover .img-box img {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.biggest-deal-box .img-box {
+  overflow: hidden;
+  border-radius: 10px;
+  margin-bottom: 40px;
+  overflow: hidden;
+}
+
+.biggest-deal-box .img-box img {
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+.biggest-deal-box .content {
+  padding-top: 20px;
+}
+
+.biggest-deal-box .content h3 {
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Gotham Rounded', sans-serif;
+  color: #000;
+}
 /*# sourceMappingURL=style.css.map */
