@@ -81,7 +81,7 @@ header {
   }
 }
 
-@media (max-width: 950px) {
+@media (min-width: 951px) {
   .header-icons-cover {
     min-width: 190px;
   }
