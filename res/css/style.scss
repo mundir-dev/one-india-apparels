@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bellefair&display=swap');
 @import url('http://fonts.cdnfonts.com/css/gotham-rounded');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap');
 
 *{
     font-family: 'Gotham Book', sans-serif;
@@ -25,6 +26,10 @@
 
 .bg-gray{
     background-color: #F5F5F5;
+}
+
+.mb-30{
+    margin-bottom: 30px;
 }
 
 header{
@@ -239,14 +244,14 @@ nav{
 }
 
 .main-heading{
-    font-size: 36px;
+    font-size: 40px;
     color: #4F3D2F;
     text-transform: uppercase;
     margin-bottom: 20px;
 }
 
 .main-caption{
-    font-size: 17px;
+    font-size: 16px;
     color: #44372C;
 }
 
@@ -268,7 +273,7 @@ nav{
         text-align: center;
         h3{
             color: #630614;
-            font-size: 19px;
+            font-size: 20px;
             font-family: 'Bellefair', serif;
         }
         p{
@@ -352,5 +357,42 @@ nav{
                   font-size: 15px;
               }
           }
+    }
+}
+
+.offer-dispaly-box{
+    background-color: #FFC481;
+    padding: 80px;
+    padding-bottom: 130px;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    h5{
+        color: #604B3B;
+        font-size: 19px;
+        margin-bottom: 11px;
+    }
+    h2{
+        color: #604B3B;
+        font-size: 35px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .with-bg{
+        h5,h2{
+            color: #FFFFFF;
+        }
+    }
+    button{
+        color: #000;
+        background-color: #fff;
+        padding: 12px 20px 10px 20px;
+        border-radius: 15px;
+        text-transform: uppercase;
+        border: none;
+        font-weight: bold;
+        font-size: 11px;
+        font-family: 'Roboto', sans-serif;
+        margin-top: 20px;
     }
 }
