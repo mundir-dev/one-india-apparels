@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bellefair&display=swap');
 @import url('http://fonts.cdnfonts.com/css/gotham-rounded');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
 
 *{
     font-family: 'Gotham Book', sans-serif;
@@ -658,8 +659,48 @@ footer{
                     font-family: 'Gotham Rounded', sans-serif;
                     font-weight: 300;
                     font-size: 11px;
+                    text-transform: uppercase;
                 }
             }
+        }
+    }
+
+    .footer-middle-sec{
+        border-top: 1px solid #B79F7A;
+        padding: 15px 0;
+        h6{
+            color: #5F5751;
+            font-size: 14px;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 300;
+        }
+        .social-list{
+            padding: 0;
+            list-style: none;
+            margin: 0 -7px;
+            li{
+                padding: 7px;
+            }
+        }
+
+        .app-download-link-sec{
+            h5{
+                font-family: 'Poppins', sans-serif;
+                font-weight: 400;
+                font-size: 17px;
+                color: #5F5751;
+            }
+        }
+    }
+
+    .copyright-section{
+        padding: 15px;
+        background-color: #002851;
+        text-align: center;
+        p{
+            margin: 0;
+            color: #cdcdcd;
+            font-size: 13px;
         }
     }
 }
